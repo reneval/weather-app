@@ -1,0 +1,45 @@
+#app {
+    max-width: 500px;
+    text-align: center;
+    color: white;
+}
+.city-temp {
+    font-size: 24px;
+}
+
+.city-row {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    font-size: 38px;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+
+.city-name {
+    flex: 1;
+}
+
+.city-temp{
+    flex: 1;
+
+}
+.city-icon{
+    flex:3;
+}
+
+.city-temp-number {
+}
+
+.city-temp-description {
+    font-size: 0.6em;
+}
+.title{
+    background-color: dimgrey;
+    font-size: 26px;
+    padding: 10px;
+}
